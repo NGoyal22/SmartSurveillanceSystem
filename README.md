@@ -5,7 +5,7 @@
 Object movement identification is one of the most researched problems in the field of computer vision. In this task, we try to classify a pixel as foreground or background. Even though numerous traditional machine learning and deep learning methods already exist for this problem, the two major issues with most of them are the need for large amounts of ground truth data and their inferior performance on unseen videos. Since every pixel of every frame has to be labeled, acquiring large amounts of data for these techniques gets rather expensive. Recently,  Zhao et al. [1] proposed one of a kind Arithmetic Distribution Neural Network (ADNN) for universal background subtraction which utilizes probability information from the histogram of temporal pixels and achieves promising results. Building onto this work, we propose an intelligent video surveillance system that will use ADNN architecture for motion detection with some additional features like anomaly detection built within it.
 
 ## Running environment 
-`Anaconda + Pytorch: conda 4.12.0` `python 3.7.13` `CUDA 10.1` `torch 1.7.1` `conda env create -f environment.yml` `conda activate adCVPR18`
+`Anaconda + Pytorch: conda 4.12.0` `python 3.7.13` `CUDA 10.1` `torch 1.7.1` `conda activate adCVPR18`
 
 ## AnomalyDetectionCVPR2018-Pytorch
 * C3D feature extraction
